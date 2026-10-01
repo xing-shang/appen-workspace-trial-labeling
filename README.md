@@ -8,7 +8,9 @@ On the target computer, make sure GitHub access is available, then run:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo xing-shang/appen-workspace-trial-labeling
+  --repo xing-shang/appen-workspace-trial-labeling \
+  --path . \
+  --name appen-workspace-trial-labeling
 ```
 
 This repository is private because the skill contains internal project workflow and delivery rules. Authenticate GitHub first if the installer cannot access the repository:
