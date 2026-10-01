@@ -1,0 +1,4 @@
+interface:
+  display_name: "Appen Workspace 试标与质检"
+  short_description: "执行 Workspace 试标/正式质检、Rubric 审核与 HTML 交付"
+  default_prompt: "使用 $appen-workspace-trial-labeling 完成并验证当前已精确分配的 Appen Workspace 试标或正式质检任务，先停在本地可交付状态。"
