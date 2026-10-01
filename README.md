@@ -9,7 +9,7 @@ On the target computer, make sure GitHub access is available, then run:
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo xing-shang/appen-workspace-trial-labeling \
-  --path . \
+  --path appen-workspace-trial-labeling \
   --name appen-workspace-trial-labeling
 ```
 
